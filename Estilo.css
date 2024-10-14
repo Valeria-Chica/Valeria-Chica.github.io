@@ -2,3 +2,19 @@ body {
    background-color: firebrick;
 
   }
+header {
+   background-color: antiquewhite;
+   width: 100%;
+   position: fixed;
+   z-index: 100;
+}
+nav {
+   float: right;
+}
+nav ul{
+   list-style: none;
+   overflow: hidden;
+}
+nav ul li {
+   float: left;
+}
