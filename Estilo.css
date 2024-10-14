@@ -1,12 +1,14 @@
 body {
    background-color: firebrick;
 
+
   }
 header {
-   background-color: antiquewhite;
+   background-color:rgb(40, 40, 40);
    width: 100%;
    position: fixed;
    z-index: 100;
+   color: white;
 }
 nav {
    float: right;
@@ -17,4 +19,9 @@ nav ul{
 }
 nav ul li {
    float: left;
+}
+img{
+   width: 170px;
+   height: 140px;
+   margin-left: 50px;
 }
