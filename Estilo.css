@@ -20,8 +20,13 @@ nav ul{
 nav ul li {
    float: left;
 }
-img{
+header img{
    width: 170px;
    height: 140px;
    margin-left: 50px;
+}
+div img {
+   width: 1000px;
+   height: 500px;
+   margin-top: 150px;
 }
