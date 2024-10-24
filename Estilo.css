@@ -1,3 +1,6 @@
+*{
+  
+}
 body {
    background-color: firebrick;
 
@@ -7,8 +10,9 @@ header {
    background-color:rgb(40, 40, 40);
    width: 100%;
    position: fixed;
-   z-index: 100;
+   z-index: 3;
    color: white;
+   top: 0;
 }
 nav {
    float: right;
@@ -25,11 +29,20 @@ header img{
    height: 140px;
    margin-left: 50px;
 }
-div img {
+.bienv img {
    width: 1000px;
    height: 500px;
-   margin-top: 150px;
+   
+   float: left;
 }
-span{
+
+.bienv::after {
+   content:"";
+   clear: both;
+   display: table;
+}
+.bienv{
    background-color: white;
+   
+   margin-top: 150px;
 }
