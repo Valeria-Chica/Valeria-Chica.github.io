@@ -1,32 +1,100 @@
-body {
+body{
    background-color: firebrick;
-
-
-  }
-header {
-   background-color:rgb(40, 40, 40);
+}
+header{
+   background-color: rgb(40, 40, 40);
    width: 100%;
    position: fixed;
    z-index: 100;
    color: white;
+   
 }
-nav {
-   float: right;
-}
-nav ul{
+
+.menu .navbar ul{
    list-style: none;
-   overflow: hidden;
+  
 }
-nav ul li {
+.menu .navbar ul li {
+   position: relative;
    float: left;
 }
+
+.menu .navbar ul li a{
+  
+     font-size: 18px;
+     padding: 20px;
+     color: white;
+     display: block;
+
+}
+#menu {
+   display: none;
+
+}
+.menu label{
+   cursor: pointer;
+   display: none;
+}
+
 header img{
    width: 170px;
    height: 140px;
-   margin-left: 50px;
+   margin: 0 auto;
 }
 div img {
    width: 1000px;
    height: 500px;
    margin-top: 150px;
+}
+
+.container{
+max-width: 1100px;
+margin: 0 auto;
+
+}
+
+.menu.logo{
+   font-weight: bolder;
+   font-size: 25px;
+   color: green;
+}
+
+.menu .navbar ul li a:hover{
+   color: aqua;
+}
+
+.header text h1{
+  color: coral;
+  font-size: 55px;
+  
+}
+.btn-1{
+   display: inline-block;
+   background-color: yellow;
+   margin-top: 35px;
+   padding: 15px 25px;
+   border-radius: 25px;
+   color: violet;
+}
+
+.btn-1:hover{
+   background-color: teal;
+
+}
+.services{
+   padding: 50px 0px;
+   text-align: center;
+   color: blue;
+}
+
+.services h2{
+font-size: 55px;
+margin-bottom: 25px;
+}
+
+
+.txt-1{
+
+   font-size: 18px;
+   
 }
