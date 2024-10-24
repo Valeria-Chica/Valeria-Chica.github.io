@@ -1,9 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+
 *{
   
 }
 body {
    background-color: firebrick;
-
+   font-family: Ubuntu;
 
   }
 header {
@@ -43,6 +47,24 @@ header img{
 }
 .bienv{
    background-color: white;
-   
+   font-size: 85px;
    margin-top: 150px;
+   font-family: Ubuntu;
+   font-weight: 700;
+}
+.nosot {
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+}
+.columna {
+   background-color: #fff;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 20px;
+   width: 30%;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+   color: rgb(1, 95, 1);
 }
