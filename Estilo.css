@@ -28,7 +28,29 @@ right: 0px;
 display: flex;
 align-items: center;
 justify-content: space-between;
-z-index: 1000;
+z-index: 1000;}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+
+*{
+  
+}
+body {
+   background-color: firebrick;
+   font-family: Ubuntu;
+
+  }
+header {
+   background-color:rgb(40, 40, 40);
+   width: 100%;
+   position: fixed;
+   z-index: 3;
+   color: white;
+   top: 0;
+}
+nav {
+   float: right;
 }
 
 .menu.logo{
@@ -269,39 +291,40 @@ footer{
    margin-top: 15px;
 }
 
-@media(max-width:991px){
-   .menu{
-      padding: 20px;
 
-   }
-   .menu label{
-      display: initial;
-
-   }
-
-   .menu .navbar{
-      position: absolute;
-      top: 100px;
-      left:0px;
-      right: 0px;
-      background-color: blueviolet;
-      display: none;
-
-
-   }
-
-   .menu .navbar ul li{
-      width: 100%;
-   }
-   .menu .navbar ul li a:hover{
-      color: white;
-   }
-
-   #menu:checked ∼ .navbar{
-      display: initial;
-
-   }
+ 
    .menu-icono{
       width: 25px;
    }
+.bienv img {
+   width: 1000px;
+   height: 500px;
+   
+   float: left;
+}
+
+.bienv::after {
+   content:"";
+   clear: both;
+   display: table;
+}
+.bienv{
+   background-color: white;
+   font-size: 85px;
+   margin-top: 150px;
+   font-family: Ubuntu;
+   font-weight: 700;
+}
+.nosot {
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+}
+.columna {
+   background-color: #fff;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 20px;
+   width: 30%;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
