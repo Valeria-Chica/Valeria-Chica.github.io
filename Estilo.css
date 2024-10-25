@@ -346,3 +346,24 @@ button {
 .next {
    right: 10px;
 }
+.whatsapp-icon , .instagram-icon{
+   width: 24px;
+   height: 24px;
+   margin: 10px;
+}
+input{
+   border-radius: 10px;
+   height: 40px;
+   width: 170px;
+}
+form{
+   width: 100%;
+   margin: 30px;
+   padding: 20px;
+}
+.contenedor{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
