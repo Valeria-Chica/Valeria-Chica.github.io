@@ -3,23 +3,13 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Times New Roman', Times, serif;
    text-transform: capitalize;
    text-decoration: none;
 }
 body{
-  
-  background-image: url(''); /* Ajusta la ruta  */
-  background-image: cover; /* Ajusta el tamaño de la imagen */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  height: 80vh; /* Asegúrate de que el body ocupe toda la altura de la ventana */
-  margin: 0; /* Elimina el margen por defecto */
+  background-color: black;
 }
-
-
-  
-
   .menu{
    position: absolute;
    top: 10px;
@@ -30,26 +20,49 @@ body{
    justify-content: space-between;
    z-index: 1000;
    }
+
 .menu.logo{
    font-weight: bolder;
    font-size: 25px;
-   color: rgb(70, 204, 70);
+   color: rgb(201, 98, 24);
+   
+
+}
+.menu .navbar ul{
+   list-style: none;
 }
 
-.menu .navbar ul li {
+.menu .navbar ul li{
    position: relative;
    float: left;
 }
-
 .menu .navbar ul li a{
-  
-     font-size: 15px;
-     padding: 20px;
-     color:white;
-     display: block;
-
+   font-size: 20px;
+   padding: 20px;
+   display: block;
+   color: white;
 }
 
+
+.menu .navbar ul li a:hover{
+   color:rgb(220, 96, 25);
+}
+
+#menu{
+   display: none;
+}
+.menu label{
+   cursor: pointer;
+   display: none;
+}
+ .header-txt{
+   text-align: center;
+   width: 700px;
+ }
+.header text h1{
+  color: coral;
+  font-size: 55px;
+}
 
 .menu label{
    cursor: pointer;
@@ -76,7 +89,7 @@ div img {
 .menu.logo{
    font-weight: bolder;
    font-size: 25px;
-   color: darkgreen;
+   color: rgb(228, 132, 22);
 }
 
 .menu .navbar ul{
@@ -90,7 +103,7 @@ div img {
 
 
 .menu .navbar ul li a:hover{
-   color:green;
+   color:rgb(121, 26, 5);
 }
 
 #menu{
@@ -122,7 +135,7 @@ div img {
 .services{
    padding: 50px 0px;
    text-align: center;
-   color: blue;
+   color: coral;
 }
 
 .services h2{
@@ -182,7 +195,7 @@ margin-bottom: 25px;
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
-   margin: 40px 0px;
+   margin: 100px 0px;
 }
 
 .bg-txt{
@@ -217,7 +230,7 @@ margin-bottom: 25px;
    margin-bottom: 25px;
 }
 
-.princeul li{
+.prince ul li{
    font-size: 18px;
 }
 
@@ -259,42 +272,19 @@ footer{
    padding:  10px 25px;
    border: 0px;
 }
-
-.btn-3{
-   background-color: aqua;
-   padding: 10px 25px;
-   border: 0px;
-   color: chocolate;
-   margin-top: 15px;
-}
-
-@media(max-width:991px){
-   .menu{
-      padding: 20px;
-
-   }
-   .menu label{
-      display: initial;
-
-   }
-
    .menu .navbar{
       position: absolute;
-      top: 100px;
+      top: 0px;
       left:0px;
       right: 0px;
-      background-color: blueviolet;
+      background-color: rgb(206, 55, 9);
       display: none;
 
 
    }
 
-   .menu .navbar ul li{
-      width: 100%;
-   }
-   .menu .navbar ul li a:hover{
-      color: white;
-   }
+   
+   
 
    #menu:checked ∼ .navbar{
       display: initial;
@@ -303,40 +293,47 @@ footer{
    .menu-icono{
       width: 25px;
    }
-}
-
-
 
 .carrusel {
- 
- max-width: 1200px;
+  max-width: 1500px;
    margin: auto;
    overflow: hidden;
+   width: 1000px;
    background-position: cover;
 }
+
 
 .carrusel-contenido {
    display: flex;
    transition: transform 0.5s ease;
-  
 }
 
 .carrusel-contenido img {
    width: 100%;
-    height: 300px;
+    height: 400px;
     object-fit: cover;
+    margin: 20px;
     
 }
-
-button {
+.boton {
    position: absolute;
    top: 50%;
    transform: translateY(-50%);
-   background-color: rgba(0, 0, 0, 0.5);
-   color: white;
+   background-color: rgba(152, 111, 111, 0.8); /* Fondo semi-transparente */
    border: none;
-   padding: 10px;
    cursor: pointer;
+   padding: 10px;
+   border-radius: 50%; /* Botones redondos */
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+
+.izquierda {
+   left: 10px;
+}
+
+.derecha {
+   right: 10px;
 }
 
 .prev {
