@@ -5,106 +5,186 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestro proyecto</title>
-    <link rel="stylesheet" href="Estilo.css">
-    
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-
     <header class="header">
-            <div class="menu container">
-            <a href="#" class="logo">logo</a>
-                <input type="checkbox" id="menu"/>
-                <label for="menu">
-                     <img  src="imag/Logo-ilbono.jpg"class="menu-icono"  alt="">  
-                </label>
-                    <nav class="navbar">
-                        <ul>
-                        
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Servicios</a></li>
-                            <li><a href="#">Productos</a></li>
-                            <li><a href="contacto.html">Contacto</a></li>
-                        </ul>
-                    </nav>
-                 </header>
-                 <div class="carrusel">
-                    <div class="carrusel-contenido" id="carrusel-contenido">
-                        <img src="imag/E.webp" alt="Imagen 3">
-                        <img src="imag/a.jpg" alt="Imagen 4">
-                        <img src="imag/D.jpg" alt="Imagen 5">
-                        <img src="imag/B.jpg" alt="Imagen 6">
-                        <img src="imag/mixed-ingredient-pizza-wooden-board.jpg" alt="Imagen 7">
-                        <img src="imag/delicious-pizza-with-vegetables.jpg" alt="Imagen 8">
-                        <img src="imag/close-up-delicious-pizza.jpg" alt="Imagen 9">
-                        <img src="imag/E.webp" alt="Imagen 3">
-                        <img src="imag/a.jpg" alt="Imagen 4">
-                        <img src="imag/D.jpg" alt="Imagen 5">
-                        <img src="imag/B.jpg" alt="Imagen 6">
-                        <img src="imag/mixed-ingredient-pizza-wooden-board.jpg" alt="Imagen 7">
-                        <img src="imag/delicious-pizza-with-vegetables.jpg" alt="Imagen 8">
-                        <img src="imag/close-up-delicious-pizza.jpg" alt="Imagen 9">
-                       
-                    </div>
-                    <button class="boton izquierda" onclick="cambiarImagen(-1)">&#10094;</button>
-                     <button class="boton derecha" onclick="cambiarImagen(1)">&#10095;</button>
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu-icono" alt="menu" />
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-text">
+                <h1>Compra tu <span>Juego</span> <br>Favorito Aqui</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deleniti aliquid assumenda et sequi
+                    rerum amet, in, maxime porro optio inventore. Quia nostrum eaque a impedit temporibus optio
+                    accusantium eius.
+                </p>
+                <div class="butons">
+                    <a href="#" class="btn-1">Informacion</a>
+                    <a href="#" class="btn-1">Juegos</a>  
                 </div>
-              
-                <script src="script.js"></script>
-        
-            <main class="services container">
-        
-                <h2>Sabores Autenticos</h2>
-                <p class="txt-1">Nuestra pasión por las pizzas de calidad</p>
-
-                <section class="menu section tk-container" id="menu">
-                    <span class="section-subtitle">¡Haz Tu Reserva y Ven a Probar!</span>
-                    <h2 class="section-title">Nuestras Pizzas</h2>
-                </section>
-            
-        </main>
-        
-         <section class="bg-sec">
-            <div class="bg-txt container">
-                <h2>¡Haz Tu Reserva y Ven a Probar!</h2>
-                <p>No te pierdas la oportunidad de disfrutar de nuestras deliciosas pizzas. Reserva tu mesa hoy mismo y vive una experiencia única.</p>
-                 </div>
-        </section>
-        
-    </spam>
-
-        <section class="prices container">
-            <div class="price">
-
-    <section class="princes container">
-                <h3>$1.500</h3>
-                <ul>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                </ul>
-                <a href="#" class="btn-1">Mas informacion</a>
             </div>
-        
-        
+ </div>
+</header>
+
+<section class="popular containaer">
+    <h2>Juegos populares</h2>
+<div class="popular-content">
+     <img src="imagenes/g1.jpg" alt="">
+     <img src="imagenes/g2.jpg" alt="">
+     <img src="imagenes/g3.jpg" alt="">
+     <img src="imagenes/g4.jpg" alt="">
+     <img src="imagenes/g5.jpg" alt="">
+     <img src="imagenes/g6.jpg" alt="">
+     <img src="imagenes/g7.jpg" alt="">
+</div>
+</section>
+
+<main class="product container">
+    <h2>Todos los juegos</h2>
+     
+    <div class="product-1">
+        <img src="imagenes/l1.jpg" alt="">
+        <div class="product-txt">
+            <h3>Juego lorem</h3>
             <div class="price">
-                
-                <h3>$3.100</h3>
-                <ul>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                </ul>
-                <a href="#" class="btn-1">Mas informacion</a>
+                <p>$5000</p>
+                <a href="#" class="btn-2">Comprar</a>
             </div>
-        
-        </section>
-       
-          
-    
+        </div>
+    </div>
+
+
+    <div class="product-1">
+        <img src="imagenes/l2.jpg" alt="">
+        <div class="product-txt">
+            <h3>Juego lorem</h3>
+            <div class="price">
+                <p>$5000</p>
+                <a href="#" class="btn-2">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-1">
+        <img src="imagenes/l3.jpg" alt="">
+        <div class="product-txt">
+            <h3>Juego lorem</h3>
+            <div class="price">
+                <p>$5000</p>
+                <a href="#" class="btn-2">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-1">
+        <img src="imagenes/l4.jpg" alt="">
+        <div class="product-txt">
+            <h3>Juego lorem</h3>
+            <div class="price">
+                <p>$5000</p>
+                <a href="#" class="btn-2">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-1">
+        <img src="imagenes/l5.jpg" alt="">
+        <div class="product-txt">
+            <h3>Juego lorem</h3>
+            <div class="price">
+                <p>$5000</p>
+                <a href="#" class="btn-2">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="product-1">
+        <img src="imagenes/l6.jpg" alt="">
+        <div class="product-txt">
+            <h3>Juego lorem</h3>
+            <div class="price">
+                <p>$5000</p>
+                <a href="#" class="btn-2">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-1">
+        <img src="imagenes/l7.jpg" alt="">
+        <div class="product-txt">
+            <h3>Juego lorem</h3>
+            <div class="price">
+                <p>$5000</p>
+                <a href="#" class="btn-2">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="product-1">
+        <img src="imagenes/l8.jpg" alt="">
+        <div class="product-txt">
+            <h3>Juego lorem</h3>
+            <div class="price">
+                <p>$5000</p>
+                <a href="#" class="btn-2">Comprar</a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<section class="contact container">
+    <div class="contact-content">
+        <h3>Subscribete a nuestro blog</h3>
+        <form>
+            <input type="email"placoholder="Escribe tu correo">
+            <input type="submit" class="btn-3" value="Enviar">
+        </form>
+    </div>
+</section>
+
+
+<footer class="footer container">
+    <div class="link">
+        <a href="#" class="logo">Logo</a>
+ </div>
+
+ <div class="link">
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+ </div>
+
+</footer>
+
 
 </body>
 
