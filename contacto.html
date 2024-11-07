@@ -8,15 +8,40 @@
 </head>
 <body>
     <div class="contenedor">
-        <h1>Contacto</h1>
+        <h1>Encontranos y Contanos tu Experiencia</h1>
         <form action="">
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre">
-            <label for="tel">Telefono</label>
-            <input type="number" id="tel" name="tel">
-            <label for="mail">Mail</label>
-            <input type="email" name="mail" id="mail">
-            <input type="submit" value="Contactanos">
+            form id="registroForm" novalidate>
+            <div>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" required maxlength="50">
+                <div class="error-message" id="errorNombre"></div>
+            </div>
+            
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" required min="16">
+                <div class="error-message" id="errorEdad"></div>
+            </div>
+    
+            <div>
+                <label for="email">Correo electronico:</label>
+                <input type="email" id="email">
+                <div class="error-message" id="errorEmail"></div>
+            </div>
+    
+            <div>
+                <label>Genero:</label>
+                <input type="radio" name="genero" value="Masculino" required> Masculino
+                <input type="radio" name="genero" value="Femenino"> Femenino
+                <input type="radio" name="genero" value="Otro"> Otro
+                <div class="error-message" id="errorGenero"></div>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    
+        <div id="feedback" class="feedback"></div>
+    
+        <script src="script.js"></script>
         </form>
     </div>
     <div class="contacto">
@@ -25,7 +50,7 @@
     </div>
     <div>
         <img src="imag/icons8-instagram-50.png" alt="" class="instagram-icon">
-     <a href="https://www.instagram.com/ilbonocucina?igsh=MWtrOG1nczBveW9sOA==">@ilbonocucina</a>
+     <a href="https://www.instagram.com/Game.Over?igsh=MWtrOG1nczBveW9sOA==">@Game.Over</a>
     </div>
 </body>
 </html>
