@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Estilo.css">
+    <title>Mi Primer Proyecto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="contenedor">
-        <h1>Encontranos y Contanos tu Experiencia</h1>
-        <form action="">
-            form id="registroForm" novalidate>
-            <div>
-                <label for="nombre">Nombre completo:</label>
-                <input type="text" id="nombre" required maxlength="50">
-                <div class="error-message" id="errorNombre"></div>
-            </div>
+
+    <header class="header">
+
+        <div class="menu container">
+            <a href="index.html" class="logo">Logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/06-90868146-scojo-beauty.webp" class="menu-icono" alt="menu">
+            </label>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+<!--<h1>Contanos tu Experiencia</h1>
+
+ Formulario de contacto 
+<form class="contact-form">
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Correo Electrónico</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="telefono">Teléfono</label>
+    <input type="tel" id="telefono" name="telefono" required pattern="^\+?[1-9]\d{1,14}$" placeholder="Ejemplo: +34123456789">
+
+    <button type="submit">Enviar</button>
+</form>
+<div id="resultado"></div>
+</div>
+</main>
+
+<script src="js/script.js"></script>-->
             
-            <div>
-                <label for="edad">Edad:</label>
-                <input type="number" id="edad" required min="16">
-                <div class="error-message" id="errorEdad"></div>
-            </div>
-    
-            <div>
-                <label for="email">Correo electronico:</label>
-                <input type="email" id="email">
-                <div class="error-message" id="errorEmail"></div>
-            </div>
-    
-            <div>
-                <label>Genero:</label>
-                <input type="radio" name="genero" value="Masculino" required> Masculino
-                <input type="radio" name="genero" value="Femenino"> Femenino
-                <input type="radio" name="genero" value="Otro"> Otro
-                <div class="error-message" id="errorGenero"></div>
-            </div>
-            <button type="submit">Enviar</button>
-        </form>
-    
-        <div id="feedback" class="feedback"></div>
-    
-        <script src="script.js"></script>
-        </form>
-    </div>
-    <div class="contacto">
-<img src="imag/icons8-whatsapp-50.png" alt="" class="whatsapp-icon">
-<a href="https://wa.me/+54 9 2665 29-4365">+54 9 2665 29-4365</a>
-    </div>
-    <div>
-        <img src="imag/icons8-instagram-50.png" alt="" class="instagram-icon">
-     <a href="https://www.instagram.com/Game.Over?igsh=MWtrOG1nczBveW9sOA==">@Game.Over</a>
-    </div>
+    </header>        
+</body>           
+                
+    </div> 
+    </main>
 </body>
 </html>
